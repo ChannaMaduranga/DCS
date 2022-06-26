@@ -1,0 +1,314 @@
+*{
+	margin: 0;
+
+}
+.header1 img{
+	height: 60px;
+	width: 300px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+
+}
+
+.navbar{
+	background-color:#0000CD;
+	padding: 10px;
+
+}
+
+	
+
+
+.navbar ul li{
+	 list-style: none;
+	 display: inline-block;
+	 padding: 8px 14px;
+	 position:relative; 
+	 text-align: justify;
+	 position:relative;
+	 font-family: Bahnschrift SemiBold;
+
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding-right: 10px;
+
+}
+
+.navbar ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.header-img img{
+	max-width: 100%;
+	height: auto;
+	padding-top: 5px;
+
+}
+
+
+.content h4{
+	text-align: center;
+	font-size: 30px;
+	font-family:Franklin Gothic Medium;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+}
+
+ /*  photo 3 */
+
+.photo{
+		width: 80%;
+		margin: auto;
+		text-align:left;
+		padding-top: 25px;
+		padding-bottom: 10px;
+	}
+.img-col img{
+	width: 100%;
+	display: block;
+}
+.rowa{
+	margin-top: 10px;
+	display: flex;
+	justify-content:space-between ;
+}
+.img-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.img-col img:hover{
+	transform: scale(1.1);
+}
+
+.content p{
+		font-size: 20px;
+		text-align: center;
+		width: 80%;
+		margin:auto;
+
+	}
+
+.Read-more{
+	
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #fff;
+	padding: 11px 30px;
+	font-size: 15px;
+	background: #008B8B ;
+	
+	cursor: pointer;
+	
+}
+.Read-more:hover{
+	border:1px solid #000;
+	background: #FFF;
+	transition: 1s;
+	color: #000;
+}
+.home-end{
+	width: 80%;
+	margin: auto;
+
+}
+.home-end img{
+	width: 100%;
+}
+
+
+
+
+ /*  FOOTER */
+ .footer{
+ 	background-color:#008B8B;
+	padding: 10px;
+ }
+ .footer p{
+ 	text-align: center;
+ 	color: #fff;
+ 	font-size: 14px;
+ 	font-family: Consolas;
+ }
+
+/* About us Style */
+
+.bgimg{
+	min-height: 50vh;
+
+	width: 100%;
+	background-image: linear-gradient(rgba(5,9,30,0.6),rgba(4,9,30,0.5)),url(img/cover2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	
+
+}
+.bgimg h3{
+	color:#fff;
+	text-align: center;
+	padding-top: 130px;
+	font-size: 45px;
+	text-decoration: ;
+
+}
+.introduction{
+	width: 80%;
+	margin: auto;
+	padding-top: 15px;
+}
+.introduction p{
+	text-align: justify;
+	font-size: 20px;
+	
+}
+.introduction h3{
+	text-align: center;
+	font-size: 30px;
+	color: 	#000080;
+}
+.introduction ul li{
+	font-size: 20px;
+}
+
+
+/*====== Student css====*/
+
+.student h2,h3 {
+	text-align: center;
+	font-size: 30px;
+	color: 	#000080;
+}
+.student table th{
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+.student table td{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+/*====== Gallary css====*/
+
+.images{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.photo-gallary img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	
+}
+.images img: hover{
+	opacity: 0.7;
+}
+
+
+
+
+
+/*======CONTACT US css====*/
+
+.location {
+	width:80%;
+	margin: auto;
+	padding: 80px 0;
+
+}
+.location iframe{
+	width: 100%;
+	height: 700px;
+}
+
+.bgimg-con{
+	min-height: 50vh;
+
+	width: 100%;
+	background-image: linear-gradient(rgba(5,15,60,0.4),rgba(4,9,60,0.3)),url(img/FrontUOJ.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+.bgimg-con h3{
+	color:#fff;
+	text-align: center;
+	padding-top: 130px;
+	font-size: 36px;
+	text-decoration: ;
+}
+
+.contact{
+	width: 80%;
+	margin: auto;
+}
+.contact-col{
+	
+	margin-bottom: 30px;
+}
+.contact-col div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	}
+
+.contact-col div .fa{
+	font-size: 28px;
+	color:  #008B8B;
+	margin: 10px;
+	margin-right: 30px;
+}
+.contact-col div p{
+	padding: 0;
+	color: #555;
+}
+.contact-col div h5{
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #555;
+	font-weight: 300;
+}
+.contact-col input, .contact-col textarea{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border:1px solid #008B8B;
+	box-sizing: border-box;
+}
+.green-btn{
+	
+	border-color: #008B8B;
+	width:30px;
+}
+.green-btn:hover{
+	color:#fff;
+	background-color: #008B8B;
+}
+.submit-reset input{
+	width:150px;
+	margin-right: 10px;
+}
